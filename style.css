@@ -623,6 +623,72 @@ li{
 /* client testimonial end  */
 
 
+
+/* courses start */
+
+#courses{
+  padding-top:70px;
+}
+
+.courses_photo_wrapper{
+  border: 1px solid var(--main-color)!important;
+  margin-bottom: 30px;
+  border-radius: 20px 0px;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+}
+
+.courses_photo_wrapper img{
+  height: 100%;
+  width: 100%;
+  border:1px solid var(--main-color)!important;
+  border-radius: 20px 0px;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  transition: all .3s ease-in-out;
+}
+
+/* courses end */
+
+
+#achivement{
+  padding-top: 70px;
+}
+
+
+.award_photo_wrapper:hover{
+  transform: scale(1.03);
+}
+
+.award_photo_wrapper{
+  border: 1px solid var(--main-color)!important;
+  margin-bottom: 30px;
+  border-radius: 20px 0px 20px 0px;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  border-bottom:none !important;
+  transition: all .3s ease-in-out;
+}
+
+.award_photo_wrapper img{
+  height: 300px;
+  width: 100%;
+  border:1px solid var(--main-color)!important;
+  border-radius: 20px 0px 0px 0px;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  border-bottom: none !important;
+  
+}
+
+.award_photo_wrapper p{
+   padding: 20px;
+   text-align: center;
+   font-family: 'oswald';
+   background: var(--main-color);
+   border-radius:0px 0px 20px 0px;
+   color: white;
+   font-weight: 600;
+}
+
+
+
 /* contact me start  */
 
 .contact-item-wrapper{
